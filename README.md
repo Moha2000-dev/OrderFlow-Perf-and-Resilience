@@ -162,7 +162,7 @@ public OrderResult PlaceOrder(List<OrderItemDTO> items, int uid)
 }
 ```
 
-</details>
+
 
 ---
 
@@ -172,8 +172,8 @@ public OrderResult PlaceOrder(List<OrderItemDTO> items, int uid)
 * Rowversion/ETag for concurrency.
 * Clean rollback on conflicts.
 
-<details>
-<summary>Click to expand Tier 2 code</summary>
+
+
 
 ```csharp
 public OrderResult PlaceOrderByIds(List<OrderItemIdDTO> items, int uid)
