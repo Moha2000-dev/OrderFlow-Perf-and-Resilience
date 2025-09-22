@@ -114,8 +114,8 @@ public void PlaceOrder(List<OrderItemDTO> items, int uid)
 * Fetch products in one go.
 * Transaction + single Save.
 
-<details>
-<summary>Click to expand Tier 1 code</summary>
+
+
 
 ```csharp
 public OrderResult PlaceOrder(List<OrderItemDTO> items, int uid)
